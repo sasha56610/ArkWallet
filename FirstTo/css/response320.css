@@ -1,0 +1,104 @@
+@media (max-width: 350px){
+    body {
+    background-image: none;
+    }
+    .wrapper {
+        width: 304px;
+        padding: 16px;
+        background-image: none;
+        /*background-size: 1366px;*/
+    }
+    .header__logo{
+        width: 100px;
+        height: 38px;
+        background-image: url(../img/320/logo320.svg);
+        background-repeat: no-repeat;
+    }
+    .header__link{
+        display: none;
+    }
+    .main{
+        margin-top: 213px;
+    }
+    .main__subtitle{
+        margin-top: -60px;
+    }
+    .cards{
+        margin-top: 24px;
+    }
+    .card:nth-child(1){order: 1;}
+    .card:nth-child(2){order: 2;}
+    .card:nth-child(3){order: 3;}
+    .card:nth-child(4){order: 4;}
+    .card:nth-child(5){order: 5;}
+    .card:nth-child(6){order: 6;}
+    .card:nth-child(7){order: 7;}
+    .card:nth-child(8){order: 8;}
+
+    .howWork {
+        margin-top: 59.83px;
+        padding-left: 0%;
+    }
+    .su{
+        position: static;
+        left: 0;
+        bottom: 0px;
+        display: block;
+    }
+    .privacy{
+        margin-top: -59.83px;
+    }
+    .privacy__title{
+        margin-top: 59.83px;
+    }
+    .askQuestion__block{
+        min-width: 100%;
+        margin-top: 106px;
+        padding: 32px;
+        height: auto;
+        border-radius: 0px;
+    }
+    .form__container_right{
+        position: relative;
+    }
+    .header__links{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+    .arbuz{
+        width: 100%;
+        flex-direction: column;
+        position: static;
+    }
+    .form__area, .form__input{
+        width: 100%;
+    }
+    .footer{
+        min-width: 340px;
+        padding: 22px 21px;
+        height: 252px;
+    }
+    .footer__container{
+        width: 304px;
+    }
+    .footer__logo{
+        width: 128.62px;
+        height: 24px;
+        background-size: cover;
+    }
+    .footer__text{
+        width: 100%;
+        margin-top: 178px;
+    }
+    .footer__link{
+        /*display: none;*/
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        background-size: 20px;
+        height: 22px;
+    }
+
+
+}

@@ -1,0 +1,465 @@
+body{
+    background-image: url(../img/backgroung__desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.wrapper{
+    width: 1448px;
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.header__logo{
+    background-image: url(../img/header__logo.svg);
+    width: 526px;
+    height: 48px;
+    display: block;
+}
+.header__links{
+    display: flex;
+    gap: 16px;
+}
+.header__link{
+    width: 48px;
+    height: 48px;
+    display: block;
+    background-size: 32px;
+    background-color: #F6F6F6;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.icon-tg{
+    background-image: url(../img/icon-telegram.svg);
+}
+.icon-s{
+    background-image: url(../img/icon-s.svg);
+}
+.icon-skype{
+    background-image: url(../img/icon-skype.svg);
+}
+.icon-email{
+    background-image: url(../img/icon-email.svg);
+}
+.main{
+    margin-top: 256px;
+}
+
+hr {        /*poehal*/
+    width: 420px;
+    height: 0;
+
+    border: 1px solid rgb(47, 47, 47);
+}
+
+.main__title{
+    color: rgb(47, 47, 47);
+    font-family: TT Firs Neue;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 9.6px;
+    text-align: left;
+    width: 762px;
+    margin-bottom: 47.5px;
+}
+
+
+.main__text{
+    color: rgb(47, 47, 47);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 568px;
+    margin-top: 48.5px;
+    margin-bottom: 126px;
+}
+.main__button{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(249, 109, 107);
+    background-image: url(../img/Vector.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main__subtitle{
+    color: rgb(47, 47, 47);
+    font-family: TT Firs Neue;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 5.76px;
+    text-align: left;
+    width: 762px;
+    margin-top: 156px;
+}
+.main__text2{
+    color: rgb(47, 47, 47);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 958px;
+    margin-top: 40px;
+}
+
+
+.howWork{
+    margin-top: 200px;
+    padding-left: 50%;
+}
+.howWork__title{
+    color: rgb(47, 47, 47);
+    font-family: TT Firs Neue;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 5.76px;
+    text-align: left;
+}
+.howWork__contaier{
+    margin-top: 40px;
+}
+.howWork__number{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: rgb(112, 112, 112);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: TT Firs Neue;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.four{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: rgb(249, 109, 107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: TT Firs Neue;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.howWork__text{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0;
+    text-align: left;
+}
+.red-link{
+    color: rgb(249, 109, 107);
+}
+
+.privacy{
+    margin-top: 160px;
+    padding-right: 50%;
+}
+.privacy__title{
+    color: rgb(47, 47, 47);
+    font-family: TT Firs Neue;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 5.76px;
+    text-align: left;
+    margin-top: 160px;
+}
+.privacy__text{
+    color: rgb(47, 47, 47);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-top: 48px;
+}
+.privacy__button{
+    width: 400px;
+    height: 68px;
+    border-radius: 8px;
+    border: 2px solid rgb(255, 255, 255);
+    background-image: url(../img/icon-telegram.svg);
+    background-repeat: no-repeat;
+    background-position: 32px center;
+    font-family: TT Firs Neue;
+    font-size: 20px;
+}
+
+.hr{
+    border: 1px solid rgb(47, 47, 47);
+    width: 420px;
+}
+.askQuestion{
+    margin-top: 160px;
+}
+.askQuestion__block{
+    width: 100%;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: rgb(249, 109, 107);
+}
+.askQuestion__block_title{
+    color: rgb(255, 255, 255);
+    font-family: TT Firs Neue;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 5.76px;
+    text-align: left;
+}
+.form{
+    margin-top: 90px;
+}
+.form__container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.form__container_left{
+    display: flex;
+    width: 912px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 28px;
+    font-family: Inter;
+}
+.form__input{
+    width: 440px;
+    height: 60px;
+    padding: 14px 40px;
+    border-radius: 8px;
+    border: 1px solid rgba(30, 30, 30, 0.4);
+    font-family: Inter;
+}
+.form__container_right{
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: Inter;
+}
+.form__text{
+    color: rgb(47, 47, 47);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.form__submit{
+    color: rgb(255, 255, 255);
+    font-family: TT Firs Neue;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 292px;
+    height: 68px;
+    border-radius: 8px;
+    background-color: rgb(249, 109, 107);
+    border: 1px solid rgb(249, 109, 107);
+
+}
+.form__area{
+    width: 100%;
+    height: 218px;
+    resize: none;
+    padding: 21px 40px;
+    border-radius: 8px;
+    border: 1px solid rgba(30, 30, 30, 0.4);
+    font-family: Inter;
+}
+
+.arbuz{
+    justify-content: flex-start;
+    gap: 54px;
+    align-items: center;
+    margin-top: 28px;
+    width: 806px;
+}
+.footer {
+    min-width: 1488px;
+    padding: 60px 20px;
+    height: 286px;
+    margin: 160px auto 0;
+    background: rgb(47, 47, 47);
+}
+.footer__container{
+    width: 1448px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__logo{
+    background-image: url(../img/footer__logo.svg);
+    width: 182.09px;
+    height: 36.46px;
+    display: block;
+    margin-bottom: 100.54px;
+}
+.footer__text{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-align: left;
+    opacity: 0.6;
+
+}
+.footer__contaier_social{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer__link{
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-left: 50px;
+    background-size: 28px;
+    text-decoration: none;
+}
+.icon--tg{
+    background-image: url(../img/bxl_telegram.svg);
+}
+.icon--s{
+    background-image: url(../img/bxl_s.svg);
+}
+.icon--skype{
+    background-image: url(../img/bxl_skype.svg);
+}
+.icon--email{
+    background-image: url(../img/bxl_email.svg);
+}
+/*Padding - внутренний отступ(используется в качестве невидимой рамки контейнера)*/
+/*Margin - наружний отступ (используется для набора дистанции между элементами или центрирования элемента если есть ширина)*/
+/*Position static - база*/
+/*Position fixed - закрепляет элемент на экране и поднимает его по слоям над всеми элементами с position static*/
+/*Position sticky - тоже самое что и fixed но закрепляется на блоке*/
+/*Position absolute - закрепляет элемент относительно блока с position(кроме static) */
+/*position relative* - тоже самое что и absolute только absolute не сдвигает другие элементы /
+
+ */
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 22px;
+    align-items: flex-start;
+    margin-top: 92px;
+}
+.card{
+    width: 468px;
+    border: 4px solid rgb(235, 235, 235);
+    border-radius: 8px;
+    background-color: rgb(250, 250, 250);
+    padding: 40px 85px 72px 40px;
+    position: relative;
+}
+.card__title{
+    color: rgb(47, 47, 47);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 5.76px;
+
+}
+.card__btn{
+    border-radius: 8px;
+    background-color: rgb(112, 112, 112);
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0px;
+    position: absolute;
+    bottom: -34px;
+    padding: 10px 30px;
+    border: none;
+}
+.card-consult{
+    width: 468px;
+    padding: 30px 40px;
+
+}
+.card-long{
+    width: 958px;
+    margin-top: -100px;
+    padding-right: 50%;
+}
+
+.card-consult .card__btn{
+    bottom: -4px; right: -4px; top: -4px;
+    width: 80px;
+    border-radius: 0 8px 8px 0;
+    background-color: rgb(249, 109, 107);
+    background-image: url(../img/Vector__card.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.card__button_text{
+    display: none;
+}
+.overlay{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 999;
+    visibility: visible;
+    opacity: 1;
+    transition: 1s;
+}
+.hidden{
+    opacity: 0;
+    visibility: collapse;
+}
+
+button:disabled{
+    opacity: 0.6;
+}

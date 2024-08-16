@@ -1,0 +1,99 @@
+@media (max-width: 1400px){
+    .wrapper{
+        width: 1192px;
+        padding: 72px;
+        background-image: url(../img/background__1366.png);
+        background-size: 1366px;
+    }
+    .howWork{
+        margin-top: 742px;
+    }
+    .main__text2{
+        width: 872px;
+    }
+
+    .card:nth-child(1){ order: 1; }
+    .card:nth-child(2){ order: 4; }
+    .card:nth-child(3){ order: 3; }
+    .card:nth-child(4){ order: 5; }
+    .card:nth-child(5){ order: 6; }
+    .card:nth-child(6){ order: 2; }
+    .card:nth-child(7){ order: 7; }
+    .card:nth-child(8){ order: 8; }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 576px;
+    padding: 40px 85px 72px 40px;
+}
+.card-consult{
+    width: 576px;
+    padding: 30px 40px;
+}
+.card-long{
+    width: 576px;
+    margin-top: 0px;
+}
+.card__title{
+    width: 345px;
+    color: rgb(47, 47, 47);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 127%;
+    letter-spacing: 5.76px;
+
+    }
+.cards{
+    gap: 74px 40px;
+}
+.howWork{
+    padding-left: 618px;
+}
+.privacy__line{
+    width: 320px;
+}
+
+.form__container{
+    flex-direction: column-reverse;
+    gap: 36px;
+}
+.form__container_left{
+    gap: 36px 40px;
+    width: 100%;
+
+}
+.form__input{
+    width: 576px;
+}
+.form__area{
+    width: 100%;
+}
+.form__container_right{
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.form__text{
+    width: 768px;
+}
+.arbuz{
+    flex-direction: row;
+}
+.footer{
+    min-width: 1336px;
+    padding: 60px 20px;
+}
+.footer__container{
+    width: 1192px;
+
+}
+
+
+
+
+
+
+}
